@@ -1,0 +1,18 @@
+body {
+    background-color: blue;
+    margin: 0%;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+footer {
+    background-color: aliceblue;
+}
