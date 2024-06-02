@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #001D43;
+    margin: 0%;
+}
+
+header[id="header-fortes"] {
+    background-color: #A9A9A9;
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
+    height: 10%;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+header[id="header-fortes"] img{
+    height: 30%;
+    width: 30%;
+    margin-right: 10%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /*background-color: red;*/
+    width: 70%;
+    align-content: space-between;
+}
+
+nav button {
+    background-color: yellow;
+    width: 20%;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+main {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+main div {
+    height: 300px;
+}
+
+main div header {
+    margin-top: 1%;
+    margin-left: 33%;
+    width: 30%;
+    height: 100px;
+    background-color: #0056B3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+main div header img {
+    margin-top: 3%;
+    height: 70%;
+    width: 17%;
+}
+
+main div header p {
+    background-color: #001D43;
+    text-align: center;
+    color: white;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 28px;
+}
+
+main section {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+main section  section{
+    background-color: blue;
+}
+
+footer {
+    background-color: #A9A9A9;
+    width: 100%;
+    height: 20px
+}
